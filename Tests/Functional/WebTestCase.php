@@ -22,7 +22,7 @@ class WebTestCase extends BaseWebTestCase
         return new TestKernel();
     }
 
-    protected function getSwaggerDefinition() 
+    protected function getSwaggerDefinition()
     {
         static::createClient();
 
